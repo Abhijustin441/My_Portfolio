@@ -1,0 +1,203 @@
+<!Doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Portfolio</title>
+        <link rel="stylesheet" href="my_port.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css">        
+    </head>
+    <body>
+        <nav class="navbar">
+            <a href="#home" class="nav-logo">KL </a>
+
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+            <span></span><span></span><span></span>
+            </button>
+        </nav>
+
+        <section class="hero" id="home">
+            <div class="hero-content">
+                <img src="C:\Users\wfa\Downloads\my_port\templates\images\profile.jpg" alt="Kola Leelakumar" class="hero-image">
+                <h1> Kola Leelakumar</h1>
+                <p class="hero-tagline">Software Engineer - Python</p>
+
+                <div class="hero-links">
+                    <a href='https://github.com/yourusername' target="_blank" class="btn" ><i class='ti ti-brand-github' aria-hidden="true"></i> GitHub</a>
+                    <a href='https://linkedin.com/in/yourusername' target="_blank" class="btn"><i class='ti ti-brand-linkedin' aria-hidden="true"></i> LinkedIn</a>
+                    <a href="mailto:kolaleelakumar425@gmail.com" class="btn"><i class='ti ti-mail' ></i> Email</a>
+                    <a href="C:\Users\wfa\Downloads\my_port\templates\docs\Resume.pdf" target="_blank" class="btn"><i class='ti ti-file' aria-hidden="true"   ></i> Resume</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="about" id="about">
+            <h2 class="section-label">About</h2>
+            <p class="about-text">I'm a software engineer who likes tracing bugs down to their root cause as much as
+                building things from scratch. At TCS I spent a year debugging production systems
+                and writing tests to catch regressions before they shipped — on the side, I build
+                full-stack apps with Python and Django. Right now I'm digging into networking
+                fundamentals and systems-level work.  </p>
+        </section>
+
+        <section class="projects" id="projects">
+            <p class="section-label">Projects</p>
+            <div class="project-grid">
+
+                <div class="project-card">
+                    <img src="#" alt="Online auction Website" class="project-image">
+                    <div class="project-body">
+                        <h3>Online auction Platform</h3>
+                        <p class="project-desc">A web application for buying and selling items in an online auction environment.</p>
+                        <div class="tag-row">
+                            <span class="tag">Python</span>
+                            <span class="tag">SQLite</span>
+                            <span class="tag">Django</span>
+
+                        </div>
+                        <div class="project-links">
+                            <a href="project-link.com" target="_blank"><i class="ti ti-external-link"></i>Demo</a>
+                            <a href="github.com" target="_blank" class="btn">
+                                <i class='ti ti-brand-github' ></i> Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <img src="#" alt="PG lifestyle Website" class="project-image">
+                    <div class="project-body">
+                        <h3>PG lifestyle Platform</h3>
+                        <p class="project-desc">Responsive site for browsing rentals with area and price-range filters.</p>
+                        <div class="tag-row">
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                            <span class="tag">JavaScript</span>
+
+                        </div>
+                        <div class="project-links">
+                            <a href="project-link.com" target="_blank"><i class="ti ti-external-link"></i>Demo</a>
+                            <a href="github.com" target="_blank" class="btn">
+                                <i class='ti ti-brand-github' ></i> Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="skills" id="skills">
+  <p class="section-label">Skills</p>
+
+  <div class="skills-group">
+    <p class="skills-category">Languages</p>
+    <div class="tag-row">
+      <span class="tag">Python</span>
+      <span class="tag">C</span>
+      <span class="tag">SQL</span>
+      <span class="tag">JavaScript</span>
+      <span class="tag">HTML</span>
+      <span class="tag">CSS</span>
+    </div>
+  </div>
+
+  <div class="skills-group">
+    <p class="skills-category">Frameworks & Web</p>
+    <div class="tag-row">
+      <span class="tag">Django</span>
+      <span class="tag">REST APIs</span>
+      <span class="tag">Responsive UI</span>
+    </div>
+  </div>
+
+  <div class="skills-group">
+    <p class="skills-category">Networking & Systems</p>
+    <div class="tag-row">
+      <span class="tag">TCP/IP</span>
+      <span class="tag">DNS</span>
+      <span class="tag">DHCP</span>
+      <span class="tag">ARP</span>
+      <span class="tag">WLAN</span>
+    </div>
+  </div>
+
+  <div class="skills-group">
+    <p class="skills-category">Tools</p>
+    <div class="tag-row">
+      <span class="tag">Git</span>
+      <span class="tag">GitHub</span>
+      <span class="tag">CI/CD</span>
+      <span class="tag">pytest</span>
+    </div>
+  </div>
+</section>
+
+<section class="experience" id="experience">
+    <p class="section-label">Experience</p>
+    <div class="exp-item">
+        <div class="exp-header">
+            <h3 class="exp-title">Software Engineer</h3>
+            <span class="exp-duration"> NOV 2024 - DEC 2025</p>
+        </div>
+        <p class="exp-company">Tata Consultancy Services</p>
+         <ul class="exp-list">
+      <li>Traced and resolved production issues in insurance policy processing systems, deploying fixes through formal change management without introducing new incidents.</li>
+      <li>Wrote Python test scripts to validate batch job outputs, catching regressions before they reached production.</li>
+      <li>Contributed to CI/CD pipeline maintenance and applied DevSecOps practices across the build-to-deploy cycle.</li>
+    </ul>
+
+    </div>
+
+</secton>
+
+<section class="contact" id ='contact'>
+    <p class="section-label">Contact</p>
+    <p class="contact-text" >Open to opportunities!- Feel free to reach out.</p>
+    <a href="mailto:kolaleelakumar425@gmail.com" class="btn btn-primary">
+        <i class="ti ti-mail" aria-hidden="true"></i> Email Me
+    </a>
+</section>
+
+<footer class="footer">
+      <div class="footer-links">
+    <a href="https://github.com/yourusername" target="_blank"><i class="ti ti-brand-github"></i></a>
+    <a href="https://linkedin.com/in/yourusername" target="_blank"><i class="ti ti-brand-linkedin"></i></a>
+    <a href="mailto:kolaleelakumar425@gmail.com"><i class="ti ti-mail"></i></a>
+  </div>
+    <p>&copy; 2026 Kola Leelakumar. All rights reserved.</p >
+
+</footer>
+
+
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
