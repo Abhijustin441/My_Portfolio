@@ -1,2 +1,2 @@
 # My_Portfolio
-Portfolio
+A full-stack developer with hands-on projects spanning back-end and front-end work: a Django-based auction platform with user authentication and a server-side bidding system, a responsive PG/rental accommodation finder with dynamic filtering, and a vanilla JavaScript house-search app that fetches and filters live property data via API. Together they show comfort across the stack — from relational data modeling and Django's ORM to DOM manipulation and API integration in plain JS — plus production debugging experience from working on large-scale batch systems at TCS.
